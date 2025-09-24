@@ -1,5 +1,5 @@
 {
-    "nvim": {
+    "test": {
         "image": "ubuntu:jammy",
         "features": {
             "nvim": {}
