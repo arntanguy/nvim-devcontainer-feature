@@ -1,0 +1,8 @@
+{
+    "nvim": {
+        "image": "ubuntu:jammy",
+        "features": {
+            "nvim": {}
+        }
+    }
+}
