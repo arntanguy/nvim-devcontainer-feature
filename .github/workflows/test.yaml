@@ -13,12 +13,10 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - nvim 
         baseImage:
-          - debian:latest
-          - ubuntu:latest
-          - mcr.microsoft.com/devcontainers/base:ubuntu
+          - ubuntu:jammy
+          - ubuntu:noble
     steps:
       - uses: actions/checkout@v4
 
@@ -34,8 +32,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - nvim
     steps:
       - uses: actions/checkout@v4
 
