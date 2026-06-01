@@ -14,7 +14,7 @@ if [ "$VERSION_CODENAME" = "jammy" ] || [ "$VERSION_CODENAME" = "noble" ]; then
     apt-get install -y /tmp/nvim.deb
     rm /tmp/nvim.deb
 elif [ "$VERSION_CODENAME" = "resolute" ]; then
-    apt-get install -y nvim
+    apt-get install -y neovim
 else
     echo "Unsupported Ubuntu version: $VERSION_CODENAME"
     exit 1
